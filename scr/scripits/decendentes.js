@@ -79,7 +79,7 @@ export async function CriarGrade(codMat = []) {
             id += 1;
         }
         ///METERIAS AMARELAS///
-        for (materia of MATERIAS){
+        for (let materia of MATERIAS){
             let prerequisitos = materia.prerequisito
             if (prerequisitos.length > 0){
                 prerequisitos.map((pre) => {
