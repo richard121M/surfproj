@@ -1,0 +1,264 @@
+.PesquiseBar{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 24px 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#listaDisciplinas{
+    /* background-color: #28a745; */
+    height: 100%;
+    overflow-y: scroll;
+}
+.tite{
+    display: grid;
+    padding: 2px;
+    grid-template-columns: 2fr 3fr 2fr;
+    align-content: center;
+    align-items: center;
+    border-bottom: 2px black solid;
+}
+.setite{
+    background-color: rgb(187, 186, 186);
+    border-radius: 10px;
+    margin:  0px 14px 0px 0px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-content: center;
+    align-items: center;
+    
+}
+.setite > input{
+    margin: 0;
+}
+.tite > p{
+    border: none;
+}
+.infoMat{
+    margin: 2px;
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 3fr 5fr;
+}
+.infoMat > h5{    
+    background-color: #e6b329;
+    padding: 4px;        
+    align-content: center;
+    border-radius: 10px;
+}
+.BpesqA{
+    background-color: white;
+    border: black 2px solid;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+
+}
+
+.BpesqA > button {
+    width: 110%;
+    height: 110%;
+    margin: 0px;
+    font-size: 32px;
+    cursor: pointer;
+    align-self: center;
+    background: #28a745;;
+    border-left: black 2px solid;
+    color: white;
+}
+
+.BpesqA > button:hover {
+    background: #218838;
+}
+
+.secMateria{
+    /* background-color: #28a745; */
+    border: black 2px solid;
+    border-radius: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;    
+}
+
+.secMateria > p{
+    border-bottom:  black 2px solid;
+    margin: 0;
+    /* width: 100%; */
+}
+.pesqA{
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+input{        
+    padding: 5px;
+    outline: none;
+}
+        
+        .divisao{
+            overflow: hidden;
+            border-radius: 32px;
+            background-color: white;
+            border: black 2px solid;
+            margin-right: 15px;
+            box-shadow: 15px 15px black;
+            padding: 1% 8% 1% 8%;
+            display: grid;
+            height: 80%;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+
+        #disciplinasPode{
+            overflow-wrap: scroll;
+            overflow-y: scroll;
+            background-color: cadetblue;
+            height: 100%;
+            padding-bottom: 16px;
+            /* height:; */
+            
+        }
+
+        .Htext {
+            display: flex;
+            align-items: center; /* Alinha todos os itens no topo */
+            gap: 10px;
+            padding: 2px;
+            
+            background-color: rgb(96, 201, 201);
+            border-radius: 10px;
+        }
+
+        .CH{
+            background-color: #218838;
+            border-radius: 10px;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+            padding: 4px;
+            display: flex;
+        }
+
+        .preReq{
+            margin-left:24px;
+            display: flex;
+        }
+        .preReq > h3{
+            background-color: #ffca37;
+            display: block;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px 4px 0px 0px;
+            margin-right: 8px;
+            margin-bottom: -6px;
+            padding-bottom: 10px;
+        }
+        .preReq > h3:hover{
+            background-color: #ffc72f;
+           
+        }
+        .SuaMateriaRemove{
+            background-color: red;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0px 6px;
+            margin: 4px;
+            padding: 2px;
+        }
+        .SuaMateriaRemove:hover{
+            margin-top: 12px;
+            box-shadow: 0px 2px;
+        }
+        .SuaMateria{
+            
+            display: grid;
+            grid-template-columns: 1fr 6fr 2fr;
+            align-items: center; /* Alinha todos os itens no topo */
+            margin: 4px;
+            border: black 2px solid;
+            border-radius: 10px;
+        }
+
+        .materia{
+            margin: 4px 12px 4px 12px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content{
+            margin: 0 6% 0 6%;
+            position: fixed;
+            bottom: 17%;
+          
+        }
+
+        .container {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: space-between;
+
+            margin: 32px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,.15);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        select,input {
+            width: 100%;
+            /* padding: 8px; */
+            
+            box-sizing: border-box;
+        }
+
+        .linha {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 0;
+            margin: 0;
+            gap: 10px;
+        }
+        
+        .pesquiname{
+            display: flex;
+            width: 100%;
+            margin-bottom:2px;
+            font-size: 14px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(108, 122, 122,0.75);
+            border-radius: 10px;
+            padding: 4px;
+            cursor: pointer;
+        }
+        .pesquiname:hover{
+            background-color: rgba(158, 179, 179, 0.9);
+        }
+
+        .pcode{
+            border-radius: 8px;
+        }

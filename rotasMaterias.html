@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Disciplinas</title>
+    <script src="/scr/scripits/arvoreGenialogica.js" type="module"></script>
+    <link rel="stylesheet" href="/scr/stilos/DeTe.css">
+    <link rel="stylesheet" href="/scr/stilos/geral.css">
+</head>
+<body>
+<header>
+    <div></div>
+    <div class="titulos">DECENDENTES</div>
+    <div>SUFRN</div>
+</header>
+
+
+<section>
+        <div class="seletor">
+            <a href="index.html">PESQUISA GERAL</a>
+            <a href="pesqresv.html">ARVORE GENIALOGICA</a>
+            <a class="dark" href="rotasMaterias.html">DECENDENTES</a>
+        </div>
+        <div class="container">
+           <div id="quadro">
+
+            </div>
+        </div>
+</section>
+
+    <div class="BpesqA">    
+        <div class="pesqA">
+             <div class="linha">
+                 <input
+                     type="text"
+                     id="codigo"
+                     placeholder="Ex: MAT3301">
+                 <div class="divSearch">
+                    <label for="search">procurar pelo nome</label>
+                    <input oninput="addHTML([])" type="search"id="nome"
+                            placeholder="Ex: CALCULO I">
+                    <div class="content">
+                    </div>
+                </div>
+             </div>
+        </div>
+        <button type="button" onclick="CriarGrade()">+</button>
+    </div>
+
+</body>
+</html>

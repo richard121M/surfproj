@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Disciplinas</title>
+    <script src="/scr/scripits/pesquiinversa.js" type="module"></script>
+    <link rel="stylesheet" href="/scr/stilos/ArGe.css">
+    <link rel="stylesheet" href="/scr/stilos/geral.css">
+</head>
+<body>
+<header>
+    <div></div>
+    <div class="titulos">ARVORE GENIALOGICA</div>
+    <div>SUFRN</div>
+</header>
+
+
+<section>
+        <div class="seletor">
+            <a href="index.html">PESQUISA GERAL</a>
+            <a class="dark" href="pesqresv.html">ARVORE GENIALOGICA</a>
+            <a href="rotasMaterias.html">DECENDENTES</a>
+        </div>
+        <div class="container">
+           <div id="quadro">
+
+            </div>
+        </div>
+</section>
+
+    <div  class="PesquiseBar">
+        <div class="content">
+        </div>
+        <div class="BpesqA">    
+            <div class="pesqA">
+                <p>PESQUISAR MATERIAS</p>
+                <div class="linha">
+                 <input
+                     type="text"
+                     id="codigo"
+                     placeholder="Ex: MAT3301">
+                 <input type="search" id="nome" placeholder="Ex: CALCULO I" oninput="addHTML([])">
+             </div> 
+        </div>
+            <button type="button" id="oiB" onclick="pesquisar()">+</button>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Disciplinas</title>
+
+    <script src="./scr/scripits/pesquisaGeral.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./scr/stilos/geral.css">
+</head>
+<body>
+<header>
+    <div></div>
+    <div class="titulos">Pesquisa Geral</div>
+    <div>SUFRN</div>
+</header>
+    <section>
+        <div class="seletor">
+            <a class="dark" href="index.html">PESQUISA GERAL</a>
+            <a href="pesqresv.html">ARVORE GENIALOGICA</a>
+            <a href="rotasMaterias.html">DECENDENTES</a>
+        </div>
+        <div class="divisao">
+           <div class="secMateria">
+               <p>Suas disciplina</p>
+               <div id="listaDisciplinas">
+               </div>
+           </div>
+           <div class="secMateria">
+               
+               <div class="tite">
+                        <div></div>
+                       <p>Disciplinas possivei de se pagar
+                        <div class="setite">
+                            <p>
+                             sem prerequisitos
+                            </p>
+                            <input
+                            id="preRequesi"
+                            value=true
+                            type="checkbox">
+                        </div>
+                  </div>
+
+               <div id="disciplinasPode" size="6">
+                    <div class="materia">
+                        <div class="preReq">
+                            <h3>ECT3101</h3>
+                            <h3>ECT3101</h3>
+                            
+                        </div>
+                        <div class="Htext">
+                            <div class="infoMat">
+                                <h5>ECT3204</h5>
+                                <h5>60h</h5>
+                            </div>
+                            <div>
+                                <h3>MODELAGEM DO MUNDO FÍSICO I</h3> 
+                                <p>Escola de Ciencia e Tecnologia</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </section>
+    <div  class="PesquiseBar">
+        <div class="content">
+        </div>
+        <div class="BpesqA">    
+            <div class="pesqA">
+                <p>PESQUISAR MATERIAS</p>
+                <div class="linha">
+                 <input
+                     type="text"
+                     id="codigo"
+                     placeholder="Ex: MAT3301">
+                 <input type="search" id="nome"
+                            placeholder="Ex: CALCULO I">
+             </div>
+        </div>
+            <button type="button" id="oiB">+</button>
+        </div>
+    </div>
+</body>
+</html>
