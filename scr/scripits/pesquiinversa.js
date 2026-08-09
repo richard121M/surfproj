@@ -16,7 +16,7 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     if (brickElement == null ){
         colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> - ${BMnome} - </div>`
     }else{
-        colach = brickElement.parentNode;
+        let colach = brickElement.parentNode;
         if (colach.id != `co${coluna}`){
             colach.removeChild(brickElement)
             colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> - ${BMnome} - </div>`
@@ -65,7 +65,7 @@ export async function pesquisar(codMat = []) {
                 //alert('nao tem prerequisito')
                 return 0
             }
-            // alert(codigo)
+            
             mate.prerequisito.map((pre) => {               
                 let prerequisitos = pre;
                 if (prerequisitos.includes('&')){
