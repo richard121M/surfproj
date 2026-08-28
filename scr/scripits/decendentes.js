@@ -1,4 +1,4 @@
-import {conectedDB, GETinfo} from './geral.js'
+import {conectedDB, GETinfo, addHTML} from './geral.js'
 
 function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     let colunaElement = document.getElementById(`co${coluna}`);
@@ -35,7 +35,6 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
 
 export async function CriarGrade(codMat = []) {
     const MATERIAS = await conectedDB();
-    
     let codigo = document.getElementById("codigo").value.trim();
     if (codMat.length > 0){
         codigo = codMat[0]
@@ -79,6 +78,7 @@ export async function CriarGrade(codMat = []) {
             id += 1;
         }
         ///METERIAS AMARELAS///
+
         for (let materia of MATERIAS){
             let prerequisitos = materia.prerequisito
             if (prerequisitos.length > 0){
@@ -150,44 +150,14 @@ export async function CriarGrade(codMat = []) {
     document.getElementById("codigo").focus();
 }
 
-let items = []
-
-async function addHTML(){
-    const inputSearch = document.querySelector("input[type='search']");
-
-    if (inputSearch.value.length >= 2){
-        const MATERIAS = await conectedDB();
-        const content = document.querySelector('.content');
-        content.innerHTML = '';
-        //alert(90)
-        let fiol = MATERIAS.filter((mat) => 
-            mat.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "").includes(inputSearch.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ""))
-        )
-        //alert(fiol)
-        let cont = 0
-        for (element of fiol){
-            //alert(90)
-            //addHTML()
-            cont += 1
-            //const div = document.createElement("div");
-            //div.innerHTML = element.nome;
-            content.innerHTML += `<div onclick="PesquiNome('${element.codigo}')" class='pesquiname'">${element.nome}
-            <div class='pcode'>${element.codigo}</div>
-            </div>` 
-
-            //content.append(div);
-            if (cont >= 10){
-                break;
-            }
-            //items.push(element.nome);    
-        }
-    }
-}
-
 async function PesquiNome(codigo){
-    CriarGrade([codigo])
+    await CriarGrade([codigo])
 }
+
+
 
 // Torna a função acessível globalmente no navegador
+window.addHTML = addHTML;
 window.CriarGrade = CriarGrade;
+window.PesquiNome = PesquiNome;
 // ========================================================================  //

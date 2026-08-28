@@ -11,29 +11,28 @@
 .BpesqA{
     background-color: white;
     border: black 2px solid;
-    margin: 0 20% 24px 20%;
-    height: 90%;
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1fr;
     align-content: center;
     border-radius: 20px;
     overflow: hidden;
-    align-items: center;
-
 }
 
-
-.BpesqA button {
+.BpesqA > button {
     width: 110%;
-    height: 200%;
+    height: 110%;
+    margin: 0px;
     font-size: 32px;
     cursor: pointer;
-    background: #28a745;
+    align-self: center;
+    background: #28a745;;
     border-left: black 2px solid;
     color: white;
 }
-
-.BpesqA button:hover {
+.BpesqA > button:hover {
     background: #218838;
 }
 .secMateria{
