@@ -1,0 +1,1785 @@
+{
+       "materias" : [
+
+
+        {
+        "nome": "MATEMATICA BASICA E MODELAGEM",
+        "apelido": ["MBM"],
+        "codigo": "ECT3101",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "ÁLGEBRA MATRICIAL E VETORIAL",
+        "apelido": ["AMV","VGA"],
+        "codigo": "ECT3102",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "METODOLOGIA CIENTÍFICA, TECNOLÓGICA E EMPREENDEDORA",
+        "apelido": ["MCTE"],
+        "codigo": "ECT3103",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "LÓGICA DE PROGRAMAÇÃO",
+        "apelido": ["LOP"],
+        "codigo": "ECT3104",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "PRÁTICAS DE LEITURA E ESCRITA I",
+        "apelido": ["PLE","PLE I","PLEI"],
+        "codigo": "ECT3105",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "CIÊNCIA, TECNOLOGIA E SOCIEDADE",
+        "apelido": ["CTS","CTS I","CTSI"],
+        "codigo": "ECT3106",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "INTRODUÇÃO ÀS CIÊNCIAS E TECNOLOGIA",
+        "apelido": ["ICT"],
+        "codigo": "ECT3107",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "VIVÊNCIA NO ENSINO SUPERIOR",
+        "apelido": ["VIVENCIA"],
+        "codigo": "ECT3108",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+
+
+
+
+        {
+        "nome": "LINGUAGEM DE PROGRAMAÇÃO",
+        "apelido": ["LIP"],
+        "codigo": "ECT3201",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3104"]
+        },
+        {
+        "nome": "ÁLGEBRA LINEAR",
+        "apelido": ["AL"],
+        "codigo": "ECT3202",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3102"]
+        },
+        {
+        "nome": "AMBIENTE E DESENVOLVIMENTO",
+        "apelido": ["AD"],
+        "codigo": "ECT3203",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+        {
+        "nome": "MODELAGEM DO MUNDO FÍSICO I",
+        "apelido": ["MMF","MMF I","MMFI","MMF1"],
+        "codigo": "ECT3204",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3101"]
+        },
+        {
+        "nome": "PROBABILIDADE E ESTATÍSTICA",
+        "apelido": ["PE"],
+        "codigo": "ECT3304",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3207"]
+        },
+        {
+        "nome": "PRÁTICAS DE LEITURA E ESCRITA II",
+        "apelido": ["PLE II","PLEII","PLE2"],
+        "codigo": "ECT3205",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3105"]
+        },
+        {
+        "nome": "QUÍMICA GERAL",
+        "apelido": ["QUIMICA","QG"],
+        "codigo": "ECT3206",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3101"]
+        },
+        {
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+        "apelido": ["C1","C I","CALCULO I"],
+        "codigo": "ECT3207",
+        "cargaHoraria": "90h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3101"]
+        },
+
+
+
+        {
+        "nome": "QUÍMICA GERAL EXPERIMENTAL",
+        "codigo": "ECT3301",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3206"]
+        },
+        {
+        "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+        "apelido": ["C2","C II","CALCULO II"],
+        "codigo": "ECT3302",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3207"]
+        },
+        {
+        "nome": "GESTÃO E ECONOMIA DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO",
+        "apelido": ["GECTI"],
+        "codigo": "ECT3303",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3205","ECT3103"]
+        },
+        {
+        "nome": "FUNDAMENTOS DA MECÂNICA",
+        "apelido": ["FM"],
+        "codigo": "ECT3306",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3207"]
+        },
+        {
+        "nome": "INTRODUÇÃO À MECÂNICA PARA ENGENHARIAS: ESTÁTICA",
+        "apelido": ["ESTATICA","IMEE"],
+        "codigo": "ECT3307",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3204","ECT3102"]
+        },
+        {
+        "nome": "CIÊNCIA, TECNOLOGIA E SOCIEDADE II",
+        "apelido": ["CTS2","CTS II","CTSII"],
+        "codigo": "ECT3308",
+        "cargaHoraria": "60h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3106"]
+        },
+
+
+
+        {
+        "nome": "MODELAGEM DO MUNDO FÍSICO II",
+        "apelido": ["MMF2","MMF II","MMFII"],
+        "codigo": "ECT3403",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": ["ECT3204&ECT3306"]
+        },
+
+
+
+        {
+        "nome": "PRÁTICAS DE LEITURA EM INGLÊS",
+        "apelido": ["PLI"],
+        "codigo": "ECT3305",
+        "cargaHoraria": "30h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+        "prerequisito": []
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "EXPRESSÃO GRÁFICA",
+            "apelido": ["EG"],
+            "codigo": "ECT3414",
+            "cargaHoraria": "54h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "GEOMÁTICA",
+            "codigo": "CIV0063",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["ECT3414"]
+        },
+
+        {
+            "nome": "CÁLCULO DIFERENCIAL E INTEGRAL III",
+            "apelido": ["C3","C III","CIII","CALCULO III"],
+            "codigo": "ECT3402",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3302"]
+        },
+
+        {
+            "nome": "CIÊNCIA E TECNOLOGIA DOS MATERIAIS",
+            "apelido": ["CTM"],
+            "codigo": "ECT3411",
+            "cargaHoraria": "54h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3206&ECT3301"]
+        },
+
+        {
+            "nome": "MECÂNICA DOS SÓLIDOS",
+            "codigo": "ECT3412",
+            "cargaHoraria": "54h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3307"]
+        },
+
+        {
+            "nome": "FUNDAMENTOS DA TERMODINÂMICA",
+            "codigo": "ECT3621",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3306"]
+        },
+
+        {
+            "nome": "FUNDAMENTOS DO ELETROMAGNETISMO",
+            "codigo": "ECT3622",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3306"]
+        },
+
+        {
+            "nome": "GEOLOGIA AMBIENTAL",
+            "codigo": "CIV1101",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["ECT3206"]
+        },
+
+        {
+            "nome": "MECÂNICA DOS FLUIDOS",
+            "codigo": "ECT3413",
+            "cargaHoraria": "54h",
+            "unidadeAcademica": "Escola de Ciencia e Tecnologia",
+            "prerequisito": ["ECT3302"]
+        },
+
+        {
+            "nome": "QUÍMICA AMBIENTAL",
+            "codigo": "QUI1000",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO DE QUÍMICA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "GEOMÁTICA APLICADA",
+            "codigo": "CIV0064",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["CIV0063"]
+        },
+
+        {
+            "nome": "HIDRÁULICA",
+            "codigo": "CIV0417",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["ECT3413"]
+        },
+
+        {
+            "nome": "HIDROLOGIA",
+            "codigo": "CIV1104",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["ECT3413&ECT3304"]
+        },
+
+        {
+            "nome": "QUALIDADE DA ÁGUA",
+            "codigo": "CIV1205",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA CIVIL E AMBIENTAL",
+            "prerequisito": ["ECT3206&QUI1000"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "COMPUTAÇÃO NUMÉRICA",
+            "apelido": ["CN"],
+            "codigo": "ECT3401",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3207&ECT3202&ECT3201"]
+        },
+
+        {
+            "nome": "FUNDAMENTOS DE CIRCUITOS E SISTEMAS CONTROLADOS",
+            "codigo": "ECT3511",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3302&ECT3201"]
+        },
+
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 2",
+            "codigo": "ECT3516",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+
+        {
+            "nome": "FLUIDOS E FENÔMENOS ONDULATÓRIOS",
+            "codigo": "ECT3626",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3306"]
+        }, 
+
+        {
+            "nome": "BASES CINESIOLÓGICAS DO MOVIMENTO HUMANO",
+            "codigo": "DEB3011",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA BIOMEDICA",
+            "prerequisito": []
+        },
+        {
+            "nome": "SINAIS E SISTEMAS",
+            "codigo": "DEB3012",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA BIOMEDICA",
+            "prerequisito": []
+        },
+        {
+            "nome": "INTRODUÇÃO À ENGENHARIA BIOMÉDICA",
+            "codigo": "DEB3013",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA BIOMEDICA",
+            "prerequisito": []
+        },
+        {
+            "nome": "SISTEMAS DE INFORMAÇÃO NA SAÚDE ",
+            "codigo": "DEB3014",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA BIOMEDICA",
+            "prerequisito": []
+        },
+        {
+            "nome": "MÓDULO MORFOLÓGICO I ",
+            "codigo": "MOR0125",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.MORFOLOGIA",
+            "prerequisito": []
+        },
+        {
+            "nome": "BIOFÍSICA",
+            "codigo": "DBF0060",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.BIOFÍSICA E FARMACOLOGIA",
+            "prerequisito": []
+        },
+        {
+            "nome": "FISIOLOGIA",
+            "codigo": "DFS0068",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.FISIOLOGIA E COMPORTAMENTO",
+            "prerequisito": []
+        },
+        {
+            "nome": "MÓDULO MORFOLÓGICO II",
+            "codigo": "MOR0126",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.FISIOLOGIA E COMPORTAMENTO",
+            "prerequisito": ["MOR0125"]
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "MATEMÁTICA DISCRETA",
+            "codigo": "DCA3206",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3101"]
+        },
+
+
+
+        {
+            "nome": "SISTEMAS DIGITAIS",
+            "codigo": "DCA3301",
+            "cargaHoraria": "75h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3201"]
+        },
+        {
+            "nome": "PROGRAMAÇÃO AVANÇADA DCA",
+            "apelido": ["PA"],
+            "codigo": "DCA3303",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3201"]
+        },
+
+
+
+        {
+            "nome": "MODELAGEM E ANÁLISE LINEAR DE SISTEMAS",
+            "apelido": ["MALS"],
+            "codigo": "DCA3402",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3302&ECT3306"]
+        },
+        {
+            "nome": "ARQUITETURA DE COMPUTADORES",
+            "apelido": ["ARQC","AC"],
+            "codigo": "DCA3404",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3201"]
+        },
+
+
+
+        {
+            "nome": "CIÊNCIA DE DADOS",
+            "codigo": "DCA3501",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["DCA3303&ECT3304"]
+        },
+        {
+            "nome": "SINAIS E SISTEMAS",
+            "codigo": "DCA3502",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3302&ECT3202"]
+        },
+        {
+            "nome": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+            "codigo": "DCA3503",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["DCA3303"]
+        },
+        {
+            "nome": "OTIMIZAÇÃO DE SISTEMAS",
+            "codigo": "DCA3504",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3202&ECT3401"]
+        },
+        {
+            "nome": "SISTEMAS OPERACIONAIS",
+            "codigo": "DCA3505",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["DCA3404"]
+        },
+        {
+            "nome": "ELETRÔNICA",
+            "codigo": "DCA3506",
+            "cargaHoraria": "75h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["ECT3511","DCA0105"]
+        },
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 3 ",
+            "codigo": "ECT3517",
+            "cargaHoraria": "75h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 7",
+            "codigo": "ECT3521",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+        {
+            "nome": "INTRODUÇÃO ÀS ENERGIAS RENOVÁVEIS",
+            "codigo": "PTR0610",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3206&ECT3207"]
+        },
+        {
+            "nome": "TERMODINÂMICA APLICADA",
+            "codigo": "PTR0617",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3403&ECT3306&ECT3413"]
+        },
+        {
+            "nome": "ENERGIA EÓLICA",
+            "codigo": "PTR0620",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["PTR0610&PTR0617"]
+        },
+        {
+            "nome": "PRINCÍPIOS DE QUÍMICA ORGÂNICA",
+            "codigo": "PTR0623",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3301"]
+        },
+        {
+            "nome": "BIOENERGIA",
+            "codigo": "PTR0624",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["PTR0610"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+         {
+            "nome": "EQUAÇÕES DIFERENCIAIS",
+            "codigo": "ECT3512",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3402"]
+        },
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 4",
+            "codigo": "ECT3518",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+        {
+            "nome": "ESTRUTURA DOS MATERIAIS: FUNDAMENTOS E APLICAÇÕES",
+            "codigo": "MTR5051",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+        {
+            "nome": "INTRODUÇÃO À ENGENHARIA DE MATERIAIS",
+            "codigo": "MTR5052",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+        {
+            "nome": "QUÍMICA ORGÂNICA APLICADA A MATERIAIS DE ENGENHARIA",
+            "codigo": "MTR5053",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+        {
+            "nome": "FUNDAMENTOS DE TERMODINÂMICA APLICADA A MATERIAIS",
+            "codigo": "MTR5054",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+
+
+
+        {
+            "nome": "MATERIAIS POLIMÉRICOS",
+            "codigo": "MTR5061",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": ["MTR5053"]
+        },
+        {
+            "nome": "CIÊNCIA DOS MATERIAIS CERÂMICOS",
+            "codigo": "MTR5062",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+        {
+            "nome": "QUÍMICA INORGÂNICA APLICADA A MATERIAIS DE ENGENHARIA",
+            "codigo": "MTR5064",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": []
+        },
+        {
+            "nome": "MATERIAIS METÁLICOS",
+            "codigo": "MTR5066",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE MATERIAIS",
+            "prerequisito": ["MTR5052","MTR0302"]
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "FUNDAMENTOS DA ENGENHARIA DE PETRÓLEO",
+            "codigo": "PTR0111",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3621"]
+        },
+        {
+            "nome": "GEOLOGIA E GEOFÍSICA DE PETRÓLEO",
+            "codigo": "PTR0112",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": []
+        },
+        {
+            "nome": "QUÍMICA DO PETRÓLEO",
+            "codigo": "PTR0113",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3301"]
+        },
+        {
+            "nome": "TERMODINÂMICA APLICADA À ENGENHARIA DE PETRÓLEO",
+            "codigo": "PTR0115",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3621"]
+        },
+        {
+            "nome": "PERFURAÇÃO DE POÇOS",
+            "codigo": "PTR0211",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": []
+        },
+
+
+
+        {
+            "nome": "FENÔMENOS DE TRANSPORTE APLICADO À ENGENHARIA DE PETRÓLEO",
+            "codigo": "PTR0114",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["ECT3413&PTR0115"]
+        },      
+        {
+            "nome": "COMPLETAÇÃO DE POÇOS",
+            "codigo": "PTR0212",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE PETROLEO",
+            "prerequisito": ["PTR0111&PTR0211"]
+        },        
+  
+
+
+        {
+            "nome": "SINAIS E SISTEMAS LINEARES",
+            "codigo": "DCO3001",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3202&ECT3302"]
+        },
+        {
+            "nome": "REDES DE COMPUTADORES I",
+            "codigo": "DCO3002",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": []
+        },
+
+
+
+        {
+            "nome": "ANÁLISE E SÍNTESE DE CIRCUITOS ELÉTRICOS",
+            "codigo": "DCO3003",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3622"]
+        },
+        {
+            "nome": "CAMPOS VARIANTES COM O TEMPO E ONDAS ELETROMAGNÉTICAS",
+            "codigo": "DCO3004",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3622"]
+        },
+        {
+            "nome": "VARIÁVEIS ALEATÓRIAS",
+            "codigo": "DCO3005",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3304"]
+        },
+        {
+            "nome": "REDES CONVERGENTES",
+            "codigo": "DCO3006",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["DCO3002"]
+        },
+        {
+            "nome": "CIRCUITOS DIGITAIS COMBINADOS",
+            "codigo": "DCO3007",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": []
+        },
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 8",
+            "codigo": "ECT3522",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+        {
+            "nome": "PRINCÍPIOS DE TELECOMUNICAÇÕES",
+            "codigo": "DCO3008",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["DCO3001"]
+        },
+        {
+            "nome": "ELETROMAGNETISMO COMPUTACIONAL APLICADO",
+            "codigo": "DCO3009",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3622"]
+        },
+        {
+            "nome": "DISPOSITIVOS ELETRÔNICOS",
+            "codigo": "DCO3010",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3622"]
+        },
+        {
+            "nome": "LABORATÓRIO DE INSTRUMENTAÇÃO",
+            "codigo": "DCO3011",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3622"]
+        },
+        {
+            "nome": "PROGRAMAÇÃO AVANÇADA",
+            "codigo": "DCO3012",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": ["ECT3201"]
+        },
+        {
+            "nome": "PROJETO INTEGRADOR I",
+            "codigo": "DCO3013",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMUNICAÇÕES",
+            "prerequisito": []
+        },
+
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "INTRODUÇÃO AOS CIRCUITOS ELÉTRICOS",
+            "codigo": "ELE3401",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA ELÉTRICA",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "INTRODUCAO À ROBOTICA",
+            "codigo": "DCA3507",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
+            "prerequisito": ["DCA3303&ECT3202 "]
+        },
+
+
+        {
+            "nome": "ELETRÔNICA",
+            "codigo": "ELE3501",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.ENGENHARIA ELÉTRICA",
+            "prerequisito": ["ELE3401"]
+        },
+
+
+        {
+            "nome": "SISTEMAS DIGITAIS ELE",
+            "codigo": "ELE3515",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA ELÉTRICA",
+            "prerequisito": ["ELE3401&DCA3303"]
+        },
+
+
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 6",
+            "codigo": "ECT3520",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+        
+
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "EQUAÇÕES DIFERENCIAIS E TRANSFORMADAS",
+            "codigo": "ECT3611",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "INTRODUÇÃO À ENGENHARIA MECÂNICA",
+            "codigo": "MEC8001",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "CIÊNCIAS E TECNOLOGIAS APLICADAS 5",
+            "codigo": "ECT3519",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3106&ECT3403&ECT3303"]
+        },
+
+
+        {
+            "nome": "TERMODINÂMICA",
+            "codigo": "MEC2001",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3611"]
+        },
+
+
+        {
+            "nome": "ESTÁTICA",
+            "codigo": "MEC3001",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3403"]
+        },
+
+        {
+            "nome": "METALOGRAFIA E TRATAMENTOS TÉRMICOS",
+            "codigo": "MEC6001",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3411"]
+        },
+
+        {
+            "nome": "DESENHO TÉCNICO E PROJETO MECÂNICO",
+            "codigo": "MEC6002",
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3414"]
+        },
+
+        {
+            "nome": "METODOLOGIA DE PROJETO EM ENGENHARIA MECÂNICA",
+            "codigo": "MEC6003",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3414"]
+        },
+
+        {
+            "nome": "TERMODINÂMICA APLICADA",
+            "codigo": "MEC2002",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["MEC2001"]
+        },
+
+
+        {
+            "nome": "RESISTÊNCIA DOS MATERIAIS I",
+            "codigo": "MEC3002",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["MEC3001"]
+        },
+
+        {
+            "nome": "MECÂNICA DOS FLUIDOS",
+            "codigo": "MEC7001",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3302&ECT3626"]
+        },
+
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "MECÂNICA DOS FLUIDOS",
+            "codigo": "MEC7001",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
+            "prerequisito": ["ECT3302&ECT3626"]
+        },
+
+
+        {
+            "nome": "DESENVOLVIMENTO WEB BACKEND",
+            "codigo": "ECT3698",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3201"]
+        },
+
+        {
+            "nome": "DESENVOLVIMENTO WEB FRONTEND",
+            "codigo": "ECT3699",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": ["ECT3201"]
+        },
+
+
+        {
+            "nome": "TÓPICOS EM ASTRONOMIA",
+            "codigo": "ECT3665",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "ESCOLA DE CIÊNCIAS E TECNOLOGIA",
+            "prerequisito": []
+        },
+
+
+
+
+        {
+            "nome": "DESENHO DE OBSERVAÇÃO",
+            "codigo": "DGN0510",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "SISTEMAS DE REPRESENTAÇÃO BIDIMENSIONAL",
+            "codigo": "DGN0511",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "TEORIA DA COR",
+            "codigo": "DGN0512",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "INTRODUÇÃO A MATERIAIS",
+            "codigo": "DGN0513",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "DESENHO E IMAGEM DIGITAL",
+            "codigo": "DGN0514",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+        {
+            "nome": "GEOMETRIA E DESENHO TÉCNICO",
+            "codigo": "DGN0515",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "HISTÓRIA DA ARTE",
+            "codigo": "DGN0520",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "SISTEMAS DE REPRESENTAÇÃO TRIDIMENSIONAL",
+            "codigo": "DGN0521",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "METODOLOGIA DE PROJETO",
+            "codigo": "DGN0522",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0510"]
+        },
+
+        {
+            "nome": "INTRODUÇÃO À TIPOGRAFIA",
+            "codigo": "DGN0523",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "TEORIA DOS SIGNOS ",
+            "codigo": "DGN0524",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "DESENHO TÉCNICO DIGITAL",
+            "codigo": "DGN0525",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0515"]
+        },
+
+
+        {
+            "nome": "HISTÓRIA DO DESIGN",
+            "codigo": "DGN0530",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0520"]
+        },
+
+        {
+            "nome": "HISTÓRIA DO DESIGN NO BRASIL",
+            "codigo": "DGN0531",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0520"]
+        },
+
+        {
+            "nome": "ERGONOMIA 1 ",
+            "codigo": "DGN0532",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "DESIGN COM TIPOS",
+            "codigo": "DGN0533",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0523"]
+        },
+
+        {
+            "nome": "MODELOS E PROTÓTIPOS 1",
+            "codigo": "DGN0534",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0515&DGN0525"]
+        },
+        {
+            "nome": "MODELAGEM DIGITAL",
+            "codigo": "DGN0535",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0525"]
+        },
+
+
+
+        {
+            "nome": "TEORIA DO DESIGN",
+            "codigo": "DGN0540",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "GESTÃO E MERCADO",
+            "codigo": "DGN0541",
+            "cargaHoraria": "45h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "ERGONOMIA 2",
+            "codigo": "DGN0542",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "DESIGN E SUSTENTABILIDADE",
+            "codigo": "DGN0543",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MODELOS E PROTÓTIPOS 2",
+            "codigo": "DGN0544",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0534"]
+        },
+
+        {
+            "nome": "DESIGN VISUAL 1",
+            "codigo": "DGN0545",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0514&DGN0522&DGN0524&DGN0533"]
+        },
+
+        {
+            "nome": "DESENVOLVIMENTO DE CONCEPTS",
+            "codigo": "DGN0546",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0522"]
+        },
+
+        {
+            "nome": "INOVAÇÃO E EMPREENDEDORISMO",
+            "codigo": "DGN0551",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "PRODUÇÃO GRÁFICA",
+            "codigo": "DGN0552",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0511&DGN0533"]
+        },
+
+        {
+            "nome": "DESIGN DE PRODUTO 1",
+            "codigo": "DGN0553",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0522&DGN0542"]
+        },
+
+        {
+            "nome": "USABILIDADE E INTERAÇÃO DIGITAL",
+            "codigo": "DGN0554",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0522&DGN0542"]
+        },
+
+        {
+            "nome": "DESIGN VISUAL 2",
+            "codigo": "DGN0555",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0545"]
+        },
+
+
+        {
+            "nome": "PROPRIEDADE INTELECTUAL",
+            "codigo": "DGN0561",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "METODOLOGIA DE PESQUISA",
+            "codigo": "DGN0562",
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "DESIGN DE PRODUTO 2",
+            "codigo": "DGN0563",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0553"]
+        },
+
+        {
+            "nome": "DESIGN DE INTERFACES DIGITAIS",
+            "codigo": "DGN0564",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "DESIGN VISUAL 3",
+            "codigo": "DGN0565",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0555"]
+        },
+
+
+        {
+            "nome": "DESIGN DE PRODUTO 3",
+            "codigo": "DGN0573",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0563"]
+        },
+
+
+        {
+            "nome": "TRABALHO DE CONCLUSÃO DE CURSO 1 – TCC1",
+            "codigo": "DGN0575",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0561&DGN0562&DGN0563&DGN0564&DGN0565"]
+        },
+
+
+        {
+            "nome": "DESIGN DIGITAL",
+            "codigo": "DGN0611",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0564"]
+        },
+
+        {
+            "nome": "TRABALHO DE CONCLUSÃO DE CURSO 2 – TCC2",
+            "codigo": "DGN0585",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DESIGN",
+            "prerequisito": ["DGN0575"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "nome": "OFICINA DE TEXTO I ",
+            "codigo": "COM0080",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "FORMAÇÃO ECONÔMICA, SOCIAL E CULTURAL DO BRASIL",
+            "codigo": "COM0165",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "HISTÓRIA E TEORIA DA COMUNICAÇÃO I",
+            "codigo": "COM0178",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "TV I",
+            "codigo": "COM0179",
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "RÁDIO I",
+            "codigo": "COM0181",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "COMUNICAÇÃO, MÍDIAS E DIREITOS HUMANOS",
+            "codigo": "COM0064",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "DRAMATURGIA E ROTEIRO",
+            "codigo": "COM0183",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "RÁDIO II",
+            "codigo": "COM0184",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0181"]
+        },
+        {
+            "nome": "ARTES E TECNOLOGIAS",
+            "codigo": "COM0194",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "ANIMAÇÃO E INFOGRAFIA",
+            "codigo": "COM0240",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+
+        {
+            "nome": "COMUNICAÇÃO PÚBLICA",
+            "codigo": "COM0066",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+        {
+            "nome": "OFICINA DE TEXTO II",
+            "codigo": "COM0081",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0080"]
+        },
+        {
+            "nome": "TV II",
+            "codigo": "COM0182",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0179"]
+        },
+        {
+            "nome": "HISTÓRIA E TEORIA DA COMUNICAÇÃO II",
+            "codigo": "COM0186",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0178"]
+        },
+        {
+            "nome": "EDIÇÃO E MONTAGEM NO AUDIOVISUAL",
+            "codigo": "COM0188",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+
+
+
+        {
+            "nome": "FOTOGRAFIA",
+            "codigo": "COM0167",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "TEORIAS DAS IMAGENS ",
+            "codigo": "COM0185",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "HISTÓRIA E TEORIA DO CINEMA",
+            "codigo": "COM0187",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0178"]
+        },
+
+        {
+            "nome": "DOCUMENTÁRIO",
+            "codigo": "COM0189",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0182"]
+        },
+
+        {
+            "nome": "SOM NO AUDIOVISUAL",
+            "codigo": "COM0286",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0184"]
+        },
+
+
+        {
+            "nome": "ÉTICA E LEGISLAÇÃO DO AUDIOVISUAL",
+            "codigo": "COM0164",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "DIREÇÃO DE ARTE",
+            "codigo": "COM0168",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0182"]
+        },
+
+
+        {
+            "nome": "DIREÇÃO DE FOTOGRAFIA",
+            "codigo": "COM0169",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0167"]
+        },
+
+
+        {
+            "nome": "ECONOMIA POLÍTICA DO AUDIOVISUAL",
+            "codigo": "COM0190",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "PESQUISA EM COMUNICAÇÃO",
+            "codigo": "COM0163",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "DIREÇÃO NO AUDIOVISUAL",
+            "codigo": "COM0192",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0118","COM0169"]
+        },
+
+
+        {
+            "nome": "GESTÃO E PRODUÇÃO EXECUTIVA DO AUDIOVISUAL",
+            "codigo": "COM0287",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0190"]
+        },
+
+        {
+            "nome": "PÓS-PRODUÇÃO E FINALIZAÇÃO",
+            "codigo": "COM0288",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0188"]
+        },
+
+
+        {
+            "nome": "IDEIAS FILOSÓFICAS CONTEMPORÂNEAS",
+            "codigo": "FIL0619",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.FILOSOFIA",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "INTRODUÇÃO AO TCC",
+            "codigo": "COM0246",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0163"]
+        },
+
+        {
+            "nome": "LABORATÓRIO EXPERIMENTAL DO AUDIOVISUAL",
+            "codigo": "COM0289",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0192"]
+        },
+
+        {
+            "nome": "PSICOLOGIA SOCIAL E COMUNICAÇÃO",
+            "codigo": "PSI0981",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.PSICOLOGIA ",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "TRABALHO DE CONCLUSÃO DE CURSO ",
+            "codigo": "COM0247",
+            "cursos": ["AUDIOVISUAL"],
+            "cargaHoraria": "150h",
+            "unidadeAcademica": "DEP.COMUNICAÇÃO SOCIAL",
+            "prerequisito": ["COM0246"]
+        },
+
+        {
+            "nome": "INTRODUCAO A ADMINISTRACAO ",
+            "codigo": "ADM0001",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS ADMINISTRATIVAS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "CONTABILIDADE BÁSICA I",
+            "codigo": "CON5101",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MATEMÁTICA FINANCEIRA",
+            "codigo": "CON5401",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MATEMÁTICA ELEMENTAR",
+            "codigo": "CON5402",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "HISTÓRIA DA CONTABILIDADE",
+            "codigo": "CON5701",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "ELEMENTOS DE DIREITO EMPRESARIAL",
+            "codigo": "DPR0039",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DIREITO PRIVADO",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "PRATICA DE LEITURA E PRODUCAO DE TEXTOS I",
+            "codigo": "LET0301",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.LETRAS",
+            "prerequisito": []
+        },
+
+
+
+        {
+            "nome": "CONTABILIDADE BÁSICA II",
+            "codigo": "CON5102",
+            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.LETRAS",
+            "prerequisito": ["CON5101"]
+        },
+
+        {
+            "nome": "ELEMENTOS ADMINISTRATIVOS E TRIBUTÁRIOS",
+            "codigo": "CON5301",
+            "cursos": ["CONTABILIDADE"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.LETRAS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "INTRODUÇÃO AO MERCADO DE CAPITAIS",
+            "codigo": "CON5403",
+            "cursos": ["CONTABILIDADE"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.LETRAS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MÉTODOS QUANTITATIVOS APLICADOS À CONTABILIDADE I",
+            "codigo": "CON5404",
+            "cursos": ["CONTABILIDADE"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.LETRAS",
+            "prerequisito": ["CON5402"]
+        },
+        
+        {
+            "nome": "DIREITO E LEGISLAÇÃO TRABALHISTA",
+            "codigo": "DPR0038",
+            "cursos": ["CONTABILIDADE"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.DIREITO PRIVADO ",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "INTRODUCAO A ECONOMIA I",
+            "codigo": "ECO0001",
+            "cursos": ["CONTABILIDADE"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.ECONOMIA ",
+            "prerequisito": []
+        }
+    ]
+}
