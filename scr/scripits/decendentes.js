@@ -19,14 +19,20 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     brickElement = document.getElementById(`B-${BMcodigo}`);
     if (flag != 'nope'){
         brickElement.innerHTML += `<div class="bolha${flag}">
-        <div class='CH'><p>${BolhaMateria.cargaHoraria}</p></div>
-        <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>
+        <div class='CH'>
+            <p>${BolhaMateria.cargaHoraria}</p></div>
+            <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>
         </div>`;
 
     }else{
         brickElement.innerHTML += `<div class="bolha${flag}">
-        <div class='CH'><p>${BolhaMateria.cargaHoraria}</p></div>
-        <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p> <p>${BolhaMateria.prerequisito}</p></div>
+            <div class="divnope">
+                <div class='CH'><p>${BolhaMateria.cargaHoraria}</p></div>
+                <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>
+            </div>
+            <div>
+                <p>${BolhaMateria.prerequisito}</p>
+            </div>
         </div>`;
         
     }

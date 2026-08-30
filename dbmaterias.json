@@ -6,6 +6,7 @@
         "nome": "MATEMATICA BASICA E MODELAGEM",
         "apelido": ["MBM"],
         "codigo": "ECT3101",
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
         "prerequisito": []
@@ -13,6 +14,7 @@
         {
         "nome": "ÁLGEBRA MATRICIAL E VETORIAL",
         "apelido": ["AMV","VGA"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3102",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -21,6 +23,7 @@
         {
         "nome": "METODOLOGIA CIENTÍFICA, TECNOLÓGICA E EMPREENDEDORA",
         "apelido": ["MCTE"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3103",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -29,6 +32,7 @@
         {
         "nome": "LÓGICA DE PROGRAMAÇÃO",
         "apelido": ["LOP"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3104",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -37,6 +41,7 @@
         {
         "nome": "PRÁTICAS DE LEITURA E ESCRITA I",
         "apelido": ["PLE","PLE I","PLEI"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3105",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -45,6 +50,7 @@
         {
         "nome": "CIÊNCIA, TECNOLOGIA E SOCIEDADE",
         "apelido": ["CTS","CTS I","CTSI"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3106",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -53,6 +59,7 @@
         {
         "nome": "INTRODUÇÃO ÀS CIÊNCIAS E TECNOLOGIA",
         "apelido": ["ICT"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3107",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -61,6 +68,7 @@
         {
         "nome": "VIVÊNCIA NO ENSINO SUPERIOR",
         "apelido": ["VIVENCIA"],
+        "cursos": ["CienTecn"],
         "codigo": "ECT3108",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -73,6 +81,7 @@
         {
         "nome": "LINGUAGEM DE PROGRAMAÇÃO",
         "apelido": ["LIP"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3201",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -81,6 +90,7 @@
         {
         "nome": "ÁLGEBRA LINEAR",
         "apelido": ["AL"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3202",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -89,6 +99,7 @@
         {
         "nome": "AMBIENTE E DESENVOLVIMENTO",
         "apelido": ["AD"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3203",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -97,6 +108,7 @@
         {
         "nome": "MODELAGEM DO MUNDO FÍSICO I",
         "apelido": ["MMF","MMF I","MMFI","MMF1"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3204",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -113,6 +125,7 @@
         {
         "nome": "PRÁTICAS DE LEITURA E ESCRITA II",
         "apelido": ["PLE II","PLEII","PLE2"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3205",
         "cargaHoraria": "30h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -129,6 +142,7 @@
         {
         "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
         "apelido": ["C1","C I","CALCULO I"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3207",
         "cargaHoraria": "90h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
@@ -155,6 +169,7 @@
         {
         "nome": "GESTÃO E ECONOMIA DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO",
         "apelido": ["GECTI"],
+        "cursos": ["CienTecn","EngMecTr","EngCompu","EngAmbie","EngMecan","EngBioM","EngMater","EngTelec","EngEnerg"],
         "codigo": "ECT3303",
         "cargaHoraria": "60h",
         "unidadeAcademica": "Escola de Ciencia e Tecnologia",
