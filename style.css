@@ -197,15 +197,7 @@ input{
             display: flex;
             flex-direction: column;
         }
-
-        .content{
-            margin: 0 6% 0 6%;
-            position: fixed;
-            bottom: 17%;
-          
-        }
-
-        
+  
 
         label {
             display: block;

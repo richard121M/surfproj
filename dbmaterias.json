@@ -484,6 +484,7 @@
         {
             "nome": "MODELAGEM E ANÁLISE LINEAR DE SISTEMAS",
             "apelido": ["MALS"],
+            "coorequisito" : [],
             "codigo": "DCA3402",
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.ENGENHARIA DE COMPUTACAO E AUTOMACAO",
@@ -1717,7 +1718,7 @@
         {
             "nome": "HISTÓRIA DA CONTABILIDADE",
             "codigo": "CON5701",
-            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cursos": ["CONTABIL","ADMINIST"],
             "cargaHoraria": "30h",
             "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
             "prerequisito": []
@@ -1726,7 +1727,7 @@
         {
             "nome": "ELEMENTOS DE DIREITO EMPRESARIAL",
             "codigo": "DPR0039",
-            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cursos": ["CONTABIL","ADMINIST"],
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.DIREITO PRIVADO",
             "prerequisito": []
@@ -1735,7 +1736,7 @@
         {
             "nome": "PRATICA DE LEITURA E PRODUCAO DE TEXTOS I",
             "codigo": "LET0301",
-            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cursos": ["CONTABIL","ADMINIST"],
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.LETRAS",
             "prerequisito": []
@@ -1746,16 +1747,16 @@
         {
             "nome": "CONTABILIDADE BÁSICA II",
             "codigo": "CON5102",
-            "cursos": ["CONTABILIDADE","ADMINISTRACAO"],
+            "cursos": ["CONTABIL","ADMINIST"],
             "cargaHoraria": "60h",
-            "unidadeAcademica": "DEP.LETRAS",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
             "prerequisito": ["CON5101"]
         },
 
         {
             "nome": "ELEMENTOS ADMINISTRATIVOS E TRIBUTÁRIOS",
             "codigo": "CON5301",
-            "cursos": ["CONTABILIDADE"],
+            "cursos": ["CONTABIL"],
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.LETRAS",
             "prerequisito": []
@@ -1764,7 +1765,7 @@
         {
             "nome": "INTRODUÇÃO AO MERCADO DE CAPITAIS",
             "codigo": "CON5403",
-            "cursos": ["CONTABILIDADE"],
+            "cursos": ["CONTABIL"],
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.LETRAS",
             "prerequisito": []
@@ -1773,16 +1774,16 @@
         {
             "nome": "MÉTODOS QUANTITATIVOS APLICADOS À CONTABILIDADE I",
             "codigo": "CON5404",
-            "cursos": ["CONTABILIDADE"],
+            "cursos": ["CONTABIL"],
             "cargaHoraria": "60h",
-            "unidadeAcademica": "DEP.LETRAS",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
             "prerequisito": ["CON5402"]
         },
         
         {
             "nome": "DIREITO E LEGISLAÇÃO TRABALHISTA",
             "codigo": "DPR0038",
-            "cursos": ["CONTABILIDADE"],
+            "cursos": ["CONTABIL"],
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP.DIREITO PRIVADO ",
             "prerequisito": []
@@ -1791,10 +1792,252 @@
         {
             "nome": "INTRODUCAO A ECONOMIA I",
             "codigo": "ECO0001",
-            "cursos": ["CONTABILIDADE"],
+            "cursos": ["CONTABIL"],
             "cargaHoraria": "60h",
-            "unidadeAcademica": "DEP.ECONOMIA ",
+            "unidadeAcademica": "DEP.ECONOMIA",
             "prerequisito": []
+        },
+
+
+        {
+            "nome": "CONTABILIDADE INTERMEDIÁRIA I",
+            "codigo": "CON5103",
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5102"]
+        },
+
+        {
+            "nome": "CONTABILIDADE TRIBUTÁRIA",
+            "codigo": "CON5106",
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5102&CON5301"]
+        },
+
+        {
+            "nome": "MÉTODOS QUANTITATIVOS APLICADOS À CONTABILIDADE II",
+            "codigo": "CON5405",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5404"]
+        },
+
+        {
+            "nome": "DESENVOLVIMENTO SUSTENTÁVEL: ASG",
+            "codigo": "CON5406",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "PRÁTICA CONTÁBIL I",
+            "codigo": "CON5601",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5102"]
+        },
+
+        {
+            "nome": "MÉTODOS DE PESQUISA EM CONTABILIDADE",
+            "codigo": "CON5702",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "CONTABILIDADE INTERMEDIÁRIA II",
+            "codigo": "CON5104",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5103"]
+        },
+
+        {
+            "nome": "PLANEJAMENTO TRIBUTÁRIO",
+            "codigo": "CON5107",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5106"]
+        },
+
+        {
+            "nome": "CONTABILIDADE DE CUSTOS",
+            "codigo": "CON5201",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5103"]
+        },
+
+        {
+            "nome": "FINANÇAS E ORÇAMENTO DO SETOR PÚBLICO",
+            "codigo": "CON5302",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5301"]
+        },
+
+        {
+            "nome": "PRÁTICA CONTÁBIL II",
+            "codigo": "CON5602",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5601"]
+        },
+
+
+        {
+            "nome": "CONTABILIDADE AVANÇADA",
+            "codigo": "CON5105",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5104"]
+        },
+
+        {
+            "nome": "ANÁLISE DE RELATÓRIOS CONTÁBEIS EMPRESARIAIS",
+            "codigo": "CON5108",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5104"]
+        },
+
+        {
+            "nome": "ANÁLISE DE CUSTOS",
+            "codigo": "CON5202",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5201"]
+        },
+
+
+        {
+            "nome": "CONTABILIDADE APLICADA AO SETOR PÚBLICO",
+            "codigo": "CON5303",
+            "coorequisito" : ["CON5304"],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5302"]
+        },
+
+        {
+            "nome": "NORMAS CONTÁBEIS APLICADAS AO SETOR PÚBLICO",
+            "codigo": "CON5304",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5302"]
+        },
+
+        {
+            "nome": "TEORIA DA CONTABILIDADE",
+            "codigo": "CON5703",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5701"]
+        },
+
+        {
+            "nome": "CONTROLADORIA EMPRESARIAL",
+            "codigo": "CON5203",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5202"]
+        },
+
+        {
+            "nome": "ANÁLISE FINANCEIRA DO SETOR PÚBLICO",
+            "codigo": "CON5305",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5303"]
+        },
+
+        {
+            "nome": "FINANÇAS CORPORATIVAS",
+            "codigo": "CON5407",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5401&CON5108"]
+        },
+
+        {
+            "nome": "AUDITORIA CONTÁBIL",
+            "codigo": "CON5501",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5105"]
+        },
+
+        {
+            "nome": "PERÍCIA CONTÁBIL",
+            "codigo": "CON5502",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5105"]
+        },
+
+
+        {
+            "nome": "PROJETO EM CONTABILIDADE",
+            "codigo": "CON5704",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5702&CON5703"]
+        },
+
+        {
+            "nome": "TRABALHO DE CONCLUSÃO DE CURSO",
+            "codigo": "CON5706",
+            "coorequisito" : [],
+            "cursos": ["CONTABIL"],
+            "cargaHoraria": "120h",
+            "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
+            "prerequisito": ["CON5704"]
         }
     ]
 }

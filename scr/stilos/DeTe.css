@@ -119,14 +119,6 @@ a{
             margin: 4px;
         }
 
-        
-
-        .content{
-            position: relative;
-            max-height: 120px;
-            overflow-y: scroll;
-            overflow-x:hidden;
-        }
 
         h2 {
             text-align: center;

@@ -1,0 +1,15 @@
+{
+    "cursos" : [
+    {
+        "nome": "CIENCIAS E TECNOLOGIA",
+        "apelido": ["cet","bct"],
+        "codigo": "CienTecn",
+        "cargaHorariaTotal": "2400h",
+        "cargaHorariaObrigatoria": "1080h",
+        "cargaHorariaOpitativa": "1200h",
+        "cargaHorariaEletiva": "240h",
+        "unidadeAcademica": "Escola de Ciencia e Tecnologia"
+    }
+
+    ]
+}
