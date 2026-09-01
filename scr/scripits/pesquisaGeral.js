@@ -35,7 +35,7 @@ function UPlistMaterias(listap,semPre,listaMaterias){
                         let listdpend = pre.split("&");
                         let cumpri = listdpend.length;
                         let prep = '';
-                        for (mate of listdpend){
+                        for (let mate of listdpend){
                             if (codigosCadastrados.includes(mate)){
                                 cumpri = cumpri -1;
                                 const nomePre = GETinfo(mate,listaMaterias).nome; 
