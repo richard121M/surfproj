@@ -2449,6 +2449,229 @@
             "cargaHoraria": "60h",
             "unidadeAcademica": "DEP. MATEMÁTICA",
             "prerequisito": ["DIM0151"]
+        },
+
+
+        {
+            "nome": "BANCO DE DADOS",
+            "codigo": "DIM0114",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["IMD0040", "DIM0116", "DIM0176"]
+        },
+
+        {
+            "nome": "ARQUITETURA DE COMPUTADORES (DIM)",
+            "codigo": "DIM0127",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "IMD0012", "DIM0118", "IMD1012", "DIM0133", "DIM0151" ],
+            "equivalencia": ["IMD0121", "DIM0058", "DIM0431", "DCA0104", "DCA0404", "IMD0041", "IMD0021"]
+        },
+
+        {
+            "nome": "APRENDIZADO DE MÁQUINA SUPERVISIONADO",
+            "codigo": "DIM0194",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "DIM0440", "DCA0432", "DCA0900", "DCA0121", "DIM0613" ],
+            "equivalencia": ["IMD3002"]
+        },
+
+
+        {
+            "nome": "INTRODUÇÃO À CIÊNCIA DE DADOS ",
+            "codigo": "DIM0199",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "EST0114&EST0178"],
+            "equivalencia": ["EST0179"]
+        },
+
+        {
+            "nome": "GRAFOS",
+            "codigo": "DIM0549",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "IMD0039", "DIM0117", "DCA0204&DCA0434", "DCA3503", "DIM0193" ],
+            "equivalencia": ["DIM0412"]
+        },
+
+        {
+            "nome": "ÉTICA, DADOS E SOCIEDADE",
+            "codigo": "EST0180",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": [ "EST0177"],
+            "equivalencia": ["DIM0202"]
+        },
+
+        {
+            "nome": "SISTEMAS OPERACIONAIS",
+            "codigo": "DIM0131",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "IMD0021", "IMD0041", "IMD0121", "DIM0127", "DIM0431" ],
+            "equivalencia": [ "IMD0036", "DIM0615", "DIM0432", "DCA0108", "IMD0042", "DCA3505" ]
+        },
+
+        {
+            "nome": "APRENDIZADO DE MÁQUINA NÃO SUPERVISIONADO",
+            "codigo": "DIM0195",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "DIM0194", "IMD3002" ],
+            "equivalencia": [ "IMD3003" ]
+        },
+
+        {
+            "nome": "APRENDIZADO DE MÁQUINA NÃO SUPERVISIONADO",
+            "codigo": "DIM0195",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "DIM0194", "IMD3002" ],
+            "equivalencia": [ "IMD3003" ]
+        },
+
+        {
+            "nome": "REDES DE COMPUTADORES",
+            "codigo": "DIM0438",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": [ "DIM0432", "DIM0431", "IMD0041", "IMD0121", "DIM0127" ],
+            "equivalencia": [ "DIM0061", "IMD0043" ]
+        },
+        {
+            "nome": "INFERENCIA",
+            "codigo": "EST0067",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": [ "EST0063"],
+            "equivalencia": [ "EST0037", "EST0122&EST0124", "EST0115&EST0116" ]
+        },
+        {
+            "nome": "ESTATISTICA NAO-PARAMETRICA",
+            "codigo": "EST0073",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": [ "EST0061", "EST0114" ],
+            "equivalencia": ["EST0043"]
+        },
+
+        {
+            "nome": "ENGENHARIA DE SOFTWARE",
+            "codigo": "DIM0162",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0176&DIM0501","DIM0176&EST0178","DIM0116", "IMD0040" ],
+            "equivalencia": ["DIM0138"]
+        },
+
+        {
+            "nome": "SEGURANÇA DE DADOS",
+            "codigo": "DIM0196",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0438&DIM0131&DIM0152&DIM0176"],
+            "equivalencia": ["IMD0703"]
+        },
+        {
+            "nome": "SISTEMAS BIG DATA",
+            "codigo": "DIM0198",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0127&DIM0114&DIM0192&DIM0193"],
+            "equivalencia": []
+        },
+        {
+            "nome": "INTELIGENCIA ARTIFICIAL",
+            "codigo": "DIM0613",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["IMD0033&DIM0120"],
+            "equivalencia": ["DCA3606"]
+        },
+        {
+            "nome": "ANALISE DE REGRESSAO",
+            "codigo": "EST0069",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["EST0067","EST0116"],
+            "equivalencia": []
+        },
+        {
+            "nome": "ANÁLISE DE DADOS DE SOBREVIVÊNCIA",
+            "codigo": "EST0078",
+            "coorequisito" : ["EST0039", "EST0069"],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": [ "EST0067", "EST0115", "EST0037" ],
+            "equivalencia": ["EST0048"]
+        },
+        {
+            "nome": "SÉRIES TEMPORAIS",
+            "codigo": "EST0070",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["EST0069&EST0067","EST0069&EST0116"],
+            "equivalencia": ["EST0040"]
+        },
+        {
+            "nome": "MODELOS LINEARES",
+            "codigo": "EST0080",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["MAT0421&EST0063","EST0034&MAT0065","MAT0343&EST0063"],
+            "equivalencia": ["EST0050"]
+        },
+        {
+            "nome": "PROPOSTA DE TRABALHO DE CONCLUSÃO DE CURSO",
+            "codigo": "EST0181",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria":"60h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": [" DIM0438&DIM0549&DIM0194&EST0069"],
+            "equivalencia": [ "DIM0405","DIM0590","DIM0617","DIM0174" ]
         }
 
     ]
