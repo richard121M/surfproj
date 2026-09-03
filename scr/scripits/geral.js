@@ -36,8 +36,8 @@ export async function addHTML(){
                 if(SeacherMateria == NameMaterias){
                     return true
                 }
-                return false;
             }
+            return false;
         })
         
         let cont = 0
