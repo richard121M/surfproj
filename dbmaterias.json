@@ -2275,6 +2275,181 @@
             "cargaHoraria": "60h",
             "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
             "prerequisito": ["IMD0040", "DIM0116", "DCA1202", "DIM0176", "IMD2007"]
+        },
+
+        {
+            "nome": "INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO (DIM)",
+            "codigo": "DIM0151",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MATEMÁTICA DISCRETA I",
+            "codigo": "DIM0191",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "ESTATÍSTICA DESCRITIVA",
+            "codigo": "EST0142",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "INTEGRAÇÃO AO AMBIENTE UNIVERSITÁRIO",
+            "codigo": "EST0177",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "CALCULO DIFERENCIAL E INTEGRAL I",
+            "codigo": "MAT0345",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. MATEMÁTICA",
+            "prerequisito": []
+        },
+
+
+        {
+            "nome": "ESTRUTURA DE DADOS BÁSICAS I",
+            "codigo": "DIM0119",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["IMD0012", "DIM0118", "IMD1012", "DIM0133", "DIM0151"]
+        },
+
+
+        {
+            "nome": "PROGRAMAÇÃO I",
+            "codigo": "DIM0176",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0151", "DIM0133", "IMD1012", "IMD0012", "DIM0118"]
+        },
+
+        {
+            "nome": "INTRODUÇÃO À CONTAGEM E ANÁLISE DE ALGORITMOS",
+            "codigo": "DIM0192",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0151&DIM0191"]
+        },
+
+
+        {
+            "nome": "PROBABILIDADE BASICA I",
+            "codigo": "EST0062",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["MAT0345"]
+        },
+
+        {
+            "nome": "CALCULO DIFERENCIAL E INTEGRAL II",
+            "codigo": "MAT0031",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. MATEMÁTICA",
+            "prerequisito": ["MAT0345"]
+        },
+
+
+        {
+            "nome": "GEOMETRIA ANALÍTICA E VETORIAL",
+            "codigo": "MAT1503",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. MATEMÁTICA",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "ESTRUTURAS DE DADOS BÁSICAS II",
+            "codigo": "DIM0193",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["IMD0029&DIM0192","IMD0029&DIM0156","DIM0119&DIM0192","DIM0119&DIM0156"]
+        },
+
+        {
+            "nome": "MATEMÁTICA DISCRETA II",
+            "codigo": "DIM0197",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
+            "prerequisito": ["DIM0191", "DIM0152", "DIM0115", "IMD0028"]
+        },
+
+        {
+            "nome": "PROBABILIDADE BASICA II",
+            "codigo": "EST0063",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["EST0062", "MAT0346","EST0033"]
+        },
+
+        {
+            "nome": "MÉTODOS ESTATÍSTICOS",
+            "codigo": "EST0114",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["EST0062&EST0113", "ECT3304","ECT1301","EST0323"]
+        },
+
+        {
+            "nome": "PROGRAMAÇÃO PARA CIÊNCIA DE DADOS",
+            "codigo": "EST0178",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "DEP. ESTATISTICA",
+            "prerequisito": ["DIM0151"]
+        },
+
+        {
+            "nome": "ÁLGEBRA LINEAR",
+            "codigo": "MAT0421",
+            "coorequisito" : [],
+            "cursos": ["CienDado"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "DEP. MATEMÁTICA",
+            "prerequisito": ["DIM0151"]
         }
+
     ]
 }
