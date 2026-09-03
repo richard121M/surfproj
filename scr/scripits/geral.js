@@ -28,12 +28,16 @@ export async function addHTML(){
         //alert(90)
         let fiol = MATERIAS.filter((mat) => {
             let SeacherMateria = inputSearch.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            let nameMateria = mat.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
             let tamSM = SeacherMateria.length
-            let NameMaterias = mat.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "").slice(0, tamSM); 
-            if(SeacherMateria == NameMaterias){
-                return true
+            let Seachpalavras = nameMateria.split(' ')
+            for (let palavra of Seachpalavras){
+                let NameMaterias = palavra.slice(0, tamSM); 
+                if(SeacherMateria == NameMaterias){
+                    return true
+                }
+                return false;
             }
-            return false;
         })
         
         let cont = 0

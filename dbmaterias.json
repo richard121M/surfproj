@@ -2038,6 +2038,243 @@
             "cargaHoraria": "120h",
             "unidadeAcademica": "DEP.CIÊNCIAS CONTÁBEIS",
             "prerequisito": ["CON5704"]
+        },
+
+
+
+
+        {
+            "nome": "PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS I",
+            "codigo": "IMD0017",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+        
+        {
+            "nome": "PRÁTICAS DE LEITURA EM INGLÊS",
+            "codigo": "IMD0018",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE",
+            "codigo": "IMD0020",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "MATEMÁTICA ELEMENTAR",
+            "codigo": "IMD1001",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "ANÁLISE COMBINATÓRIA",
+            "codigo": "IMD1002",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "GEOMETRIA EUCLIDIANA",
+            "codigo": "IMD1003",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "PENSAMENTO COMPUTACIONAL (EAD)",
+            "codigo": "IMD1004",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": []
+        },
+
+        {
+            "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+            "codigo": "IMD0024",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD1001"]
+        },
+
+        {
+            "nome": "PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS II",
+            "codigo": "IMD0027",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "30h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0017"]
+        },
+
+        {
+            "nome": "FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO I",
+            "codigo": "IMD0028",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD1001&IMD1002"]
+        },
+
+        {
+            "nome": "VETORES E GEOMETRIA ANALÍTICA",
+            "codigo": "IMD0034",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD1001"]
+        },
+
+        {
+            "nome": "INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO (EAD)",
+            "codigo": "IMD1012",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD1004"]
+        },
+
+
+
+        {
+            "nome": "ESTRUTURA DE DADOS BÁSICAS I",
+            "codigo": "IMD0029",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0012","DIM0118","IMD1012","DIM0133","DIM0151"]
+        },
+
+
+
+        {
+            "nome": "LINGUAGEM DE PROGRAMAÇÃO I",
+            "codigo": "IMD0030",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0012","DIM0118","IMD1012","DIM0133","DIM0151"]
+        },
+
+
+
+        {
+            "nome": "PROBABILIDADE",
+            "codigo": "IMD0033",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0024&IMD1002"]
+        },
+
+
+
+        {
+            "nome": "FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO II",
+            "codigo": "IMD0038",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "90h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0028"]
+        },
+
+
+        {
+            "nome": "ARQUITETURA DE COMPUTADORES (EAD)",
+            "codigo": "IMD0121",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": [ "IMD2005", "IMD0012", "DIM0118", "IMD1012", "DIM0133", "DCA1202", "DIM0151","DCA3303"]
+        },
+
+
+
+        {
+            "nome": "SISTEMAS OPERACIONAIS",
+            "codigo": "IMD0036",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": [  "IMD0021", "IMD0041", "IMD0121", "DIM0127", "DIM0431", "DCA0104","DCA3303" ]
+        },
+
+
+        {
+            "nome": "ESTRUTURAS DE DADOS BÁSICAS II",
+            "codigo": "IMD0039",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": [   "IMD0029", "DIM0119" ]
+        },
+
+        {
+            "nome": "LINGUAGEM DE PROGRAMAÇÃO II",
+            "codigo": "IMD0040",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0030","DIM0120","DIM0176"]
+        },
+
+
+        {
+            "nome": "REDES DE COMPUTADORES",
+            "codigo": "IMD0043",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0021", "IMD0041", "IMD0121", "DCA0104"]
+        },
+
+
+        {
+            "nome": "BANCO DE DADOS",
+            "codigo": "IMD0401",
+            "coorequisito" : [],
+            "cursos": ["TecnInfo"],
+            "cargaHoraria": "60h",
+            "unidadeAcademica": "INSTITUTO METROPOLE DIGITAL",
+            "prerequisito": ["IMD0040", "DIM0116", "DCA1202", "DIM0176", "IMD2007"]
         }
     ]
 }

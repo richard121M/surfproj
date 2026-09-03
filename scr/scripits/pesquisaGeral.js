@@ -145,20 +145,18 @@ async function adicionar(codigod = '') {
     lista.innerHTML = '';
     codigosCadastrados.map((mat) => {
         let materiaM = GETinfo(mat,MATERIAS);
-        lista.innerHTML += `<div id="SM-${mat}" class="SuaMateria">
-        <div class="infoMat">
-        <h5>${mat}</h5>
-        <h5>${materiaM.cargaHoraria}</h5>
-        </div>
-                            <div>
-                            <h3>${materiaM.nome}</h3> 
-                            
-                            </div>
-                            <div onClick="removerSM('${mat}')" class="SuaMateriaRemove">
-                            
-                            <p>remover</p>
-                            </div>
-                    </div>`;
+        lista.innerHTML += `
+        <div id="SM-${mat}" class="SuaMateria">
+            <div>
+                <h3>${materiaM.nome}</h3> 
+            </div>
+            <div class="infoMat">
+                <h5>${mat}</h5>
+                <div onClick="removerSM('${mat}')" class="SuaMateriaRemove">
+                <p>remover</p>
+                </div>
+            </div>
+        </div>`;
     })
     
     
