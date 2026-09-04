@@ -10,7 +10,7 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     let BMnome = '';
     BrickMateria.map((BM) =>{
         BMcodigo += BM.codigo;
-        BMnome += BM.nome + ' e ';
+        BMnome += " - "+BM.nome+ " -";
     })
     let brickElement = document.getElementById(`B-${BMcodigo}`);
     if (brickElement == null ){
@@ -19,7 +19,7 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
         let colach = brickElement.parentNode;
         if (colach.id != `co${coluna}`){
             colach.removeChild(brickElement)
-            colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> - ${BMnome} - </div>`
+            colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> ${BMnome} </div>`
         }
     }
     brickElement = document.getElementById(`B-${BMcodigo}`);
@@ -39,6 +39,22 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
 
 }
 
+
+function existeMat(listaCodes = [], Materias){
+    let cont = listaCodes.length
+    for (let mat of listaCodes){
+       // alert(mat)
+        for (let materia of Materias){
+            if (mat == materia.codigo){
+              //  alert(cont)
+                cont -= 1
+
+            }
+        }
+    }
+    return (cont == 0)
+}   
+
 export async function pesquisar(codMat = []) {
     const MATERIAS = await conectedDB();
     let codigo = document.getElementById("codigo").value.trim();
@@ -48,7 +64,6 @@ export async function pesquisar(codMat = []) {
     //let check = document.getElementById("preRequesi");
     let listGrade = [[GETinfo(codigo,MATERIAS)],];
     let listamate2 = [{mat : GETinfo(codigo,MATERIAS), coluna: 0}];
-    
     let grade = document.getElementById("quadro");
     grade.innerHTML = '';
     let id = 1;
@@ -65,27 +80,32 @@ export async function pesquisar(codMat = []) {
                 //alert('nao tem prerequisito')
                 return 0
             }
-            
-            mate.prerequisito.map((pre) => {               
-                let prerequisitos = pre;
+            let prerequisitos = []
+            for (let t = 0; t < mate.prerequisito.length; t++){
+                prerequisitos = mate.prerequisito[t]
+                //alert(prerequisitos)
                 if (prerequisitos.includes('&')){
-                    prerequisitos = pre.split("&")
+                    prerequisitos =  mate.prerequisito[t].split("&")
                 }
-                
-                // alert(90)
-                for (let materia of MATERIAS){
-                        if (prerequisitos.includes(materia.codigo)){     
-                            if (adicionou == false){
-                                listGrade.push([ ]);
-                            }
-                            
-                            CreateBrick(i+1,[mate],materia)
-                            adicionou = true;
-                                listamate2.push({mat : materia, coluna: i+1})
-                                listGrade[id].push(materia);   
+                if (existeMat(prerequisitos, MATERIAS)){
+                    break;
+                }
+            }
+            
+            //alert(prerequisitos)
+            for (let materia of MATERIAS){
+                    if (prerequisitos.includes(materia.codigo)){     
+                        if (adicionou == false){
+                            listGrade.push([ ]);
                         }
-                }
-            })
+                            
+                        CreateBrick(i+1,[mate],materia)
+                        adicionou = true;
+                            listamate2.push({mat : materia, coluna: i+1})
+                            listGrade[id].push(materia);   
+                    }
+            }
+            
         })
         if (adicionou == false){
             break;

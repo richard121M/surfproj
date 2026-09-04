@@ -2600,7 +2600,7 @@
             "cursos": ["CienDado"],
             "cargaHoraria":"60h",
             "unidadeAcademica": "DEP. INFORMÁTICA E MATEMÁTICA APLICADA",
-            "prerequisito": ["DIM0438&DIM0131&DIM0152&DIM0176"],
+            "prerequisito": ["DIM0438&DIM0131&DIM0191&DIM0176"],
             "equivalencia": ["IMD0703"]
         },
         {
@@ -2630,7 +2630,7 @@
             "cursos": ["CienDado"],
             "cargaHoraria":"90h",
             "unidadeAcademica": "DEP. ESTATISTICA",
-            "prerequisito": ["EST0067","EST0116"],
+            "prerequisito": ["EST0067"],
             "equivalencia": []
         },
         {
@@ -2650,7 +2650,7 @@
             "cursos": ["CienDado"],
             "cargaHoraria":"90h",
             "unidadeAcademica": "DEP. ESTATISTICA",
-            "prerequisito": ["EST0069&EST0067","EST0069&EST0116"],
+            "prerequisito": ["EST0069&EST0067"],
             "equivalencia": ["EST0040"]
         },
         {
@@ -2660,7 +2660,7 @@
             "cursos": ["CienDado"],
             "cargaHoraria":"90h",
             "unidadeAcademica": "DEP. ESTATISTICA",
-            "prerequisito": ["MAT0421&EST0063","EST0034&MAT0065","MAT0343&EST0063"],
+            "prerequisito": ["MAT0421&EST0063"],
             "equivalencia": ["EST0050"]
         },
         {
@@ -2670,7 +2670,7 @@
             "cursos": ["CienDado"],
             "cargaHoraria":"60h",
             "unidadeAcademica": "DEP. ESTATISTICA",
-            "prerequisito": [" DIM0438&DIM0549&DIM0194&EST0069"],
+            "prerequisito": ["DIM0438&DIM0549&DIM0194&EST0069"],
             "equivalencia": [ "DIM0405","DIM0590","DIM0617","DIM0174" ]
         }
 

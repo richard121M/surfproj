@@ -10,7 +10,7 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     let BMnome = '';
     BrickMateria.map((BM) =>{
         BMcodigo += BM.codigo;
-        BMnome += BM.nome + ' e ';
+        BMnome += " - "+BM.nome+ " -";
     })
     let brickElement = document.getElementById(`B-${BMcodigo}`);
     if (brickElement == null ){
