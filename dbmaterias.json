@@ -1016,13 +1016,6 @@
 
 
 
-        {
-            "nome": "MECÂNICA DOS FLUIDOS",
-            "codigo": "MEC7001",
-            "cargaHoraria": "60h",
-            "unidadeAcademica": "DEP.ENGENHARIA MECANICA",
-            "prerequisito": ["ECT3302&ECT3626"]
-        },
 
 
         {

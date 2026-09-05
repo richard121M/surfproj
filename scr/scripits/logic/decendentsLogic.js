@@ -32,16 +32,15 @@ function listMateAntecessoras(listGrade, mateMiseri){
     }
     
     let listMate = []
-   // alert(newListGrade)
+
     newListGrade.map((mate) => {
         for (let mate2 of mate.listMaterias) {
-          //  alert(13);
+
             if (!listMate.includes(mate2.codigo)) {listMate.push(mate2.codigo)}
         }
     })
     return listMate;
 }
-
 
 export async function CriarGrade(codMat = []) {
     const MATERIAS = await conectedDB();
@@ -53,20 +52,68 @@ export async function CriarGrade(codMat = []) {
     ///METERIAS AZUIS///
     ///===========================================================//
     let id = 0;
+    let allMaterias = []
     for (let i = 0; i<6; i+= 1){
         let coluna = [];
+
         let materiasAntecessoras = listMateAntecessoras(gradeMaterias[id-1],materiaPesquisada);
-       // alert(materiasAntecessoras)
+        
+        if (allMaterias.length > 1){
+            for (let materia of MATERIAS){
+                materia.prerequisito.map((preRequi) => {
+                    let preRequisito = []
+                    preRequi.includes('&') ? preRequisito = preRequi.split("&") : preRequisito = [preRequi]
+                    let cont = preRequisito.length
+                    if (cont <= 1){
+                        return 0;
+                    }
+
+                    let whoMate = []
+                    for (let all of allMaterias){
+                        if (preRequisito.includes(all.codigo)){
+                            whoMate.push(all)
+                            cont -=1;
+                        }
+                    }
+                    if (materia.codigo == "MEC7001"){
+                        alert(90)
+                    }
+
+                    if (cont == 0){
+                        let nomeb = "";
+                        let codigob = "";
+                        for (let a of whoMate){
+                            nomeb += " E " + a.nome
+                            codigob += "&" + a.codigo
+                            //MATERIAS.splice(MATERIAS.indexOf(GETinfo(a.codigo,MATERIAS)),1) 
+                        }
+
+                        coluna.push({ "codigo" : codigob, "nome" : nomeb,"listMaterias" : [] })
+                        
+                        coluna.at(-1).listMaterias.push({ "type" : "nop","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
+                    }
+                })
+            }
+        }
+        ///Materias Azuis///
+        ///======================================================================================//
         materiasAntecessoras.map((mate) => {
             coluna.push({ "codigo" : mate, "nome" : GETinfo(mate,MATERIAS).nome,"listMaterias" : [] })
+            MATERIAS.splice(MATERIAS.indexOf(GETinfo(mate,MATERIAS)),1) 
             for (let materia of MATERIAS){
                 if (materia.prerequisito.length > 0){
                     if (materia.prerequisito.includes(mate)){
+                        //materia-azul
                         coluna.at(-1).listMaterias.push({ "type" : "direto","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
+                        allMaterias.push({"nome": materia.nome, "codigo": materia.codigo})
                     }
                 }
             }
+            if (coluna.at(-1).listMaterias.length == 0){coluna.splice(coluna.indexOf(coluna.at(-1)),1)}
         })
+        ///======================================================================================//
+
+
         //alert(coluna)
         if (coluna.length == 0){
             break;
@@ -74,12 +121,11 @@ export async function CriarGrade(codMat = []) {
         if (gradeMaterias.length == 0){
             gradeMaterias[id] = coluna
         }else{
-            alert(`${id} -> ${coluna.at(-1).nome}`)
             gradeMaterias.push(coluna)
         }
         id += 1;
     }
-    //alert(gradeMaterias[3].at(0).nome)
+
     return gradeMaterias;
     ///===========================================================//
 }

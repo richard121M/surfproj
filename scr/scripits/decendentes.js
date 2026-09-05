@@ -159,7 +159,6 @@ export async function CriarGradee(codMat = []) {
 
 export async function GerarGrade(codMat = []) {
     let gradeDados = await CriarGrade(codMat);
-    alert(gradeDados.length)
     let grade = document.getElementById("quadro");
     grade.innerHTML = '';
     for (let i = 0; i < gradeDados.length; i++){
@@ -172,10 +171,6 @@ export async function GerarGrade(codMat = []) {
                 }
             }
         }
-    }
-    let ultimaColuna = grade.lastElementChild;
-    if (ultimaColuna.lastElementChild == null){
-        ultimaColuna.remove()
     }
 
     document.getElementById("codigo").value = "";
