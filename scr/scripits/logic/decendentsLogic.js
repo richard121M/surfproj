@@ -25,17 +25,17 @@ function listMateAntecessoras(listGrade, mateMiseri){
     if (listGrade == null){
         return [mateMiseri.codigo];
     }
-    alert(12)
+  //  alert(12)
 
     if (listGrade.length > 0){
         newListGrade = listGrade
     }
     
     let listMate = []
-    alert(newListGrade)
+   // alert(newListGrade)
     newListGrade.map((mate) => {
         for (let mate2 of mate.listMaterias) {
-            alert(13);
+          //  alert(13);
             if (!listMate.includes(mate2.codigo)) {listMate.push(mate2.codigo)}
         }
     })
@@ -56,29 +56,30 @@ export async function CriarGrade(codMat = []) {
     for (let i = 0; i<6; i+= 1){
         let coluna = [];
         let materiasAntecessoras = listMateAntecessoras(gradeMaterias[id-1],materiaPesquisada);
-        alert(materiasAntecessoras)
+       // alert(materiasAntecessoras)
         materiasAntecessoras.map((mate) => {
-            coluna.push({ "codigo" : mate, "nomeBolha" : GETinfo(mate,MATERIAS).nome,"listMaterias" : [] })
+            coluna.push({ "codigo" : mate, "nome" : GETinfo(mate,MATERIAS).nome,"listMaterias" : [] })
             for (let materia of MATERIAS){
                 if (materia.prerequisito.length > 0){
                     if (materia.prerequisito.includes(mate)){
-                        coluna.at(-1).listMaterias.push({ "type" : "direto", "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
+                        coluna.at(-1).listMaterias.push({ "type" : "direto","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
                     }
                 }
             }
         })
-        alert(coluna)
-        if (gradeMaterias.length == 0){
-            gradeMaterias[id] = coluna
-        }else{
-            gradeMaterias.push(coluna)
-        }
+        //alert(coluna)
         if (coluna.length == 0){
             break;
         }
+        if (gradeMaterias.length == 0){
+            gradeMaterias[id] = coluna
+        }else{
+            alert(`${id} -> ${coluna.at(-1).nome}`)
+            gradeMaterias.push(coluna)
+        }
         id += 1;
     }
-    alert(gradeMaterias[3].at(0).nomeBolha)
+    //alert(gradeMaterias[3].at(0).nome)
     return gradeMaterias;
     ///===========================================================//
 }
