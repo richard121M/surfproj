@@ -21,8 +21,9 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     if (BolhaMateria.type != 'nope'){
         brickElement.innerHTML += `<div class="bolha${BolhaMateria.type}">
         <div class='CH'>
-            <p>${BolhaMateria.cargaHoraria}</p></div>
-            <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>
+            <h2>${BolhaMateria.codigo}</h2><p>${BolhaMateria.cargaHoraria}</p>
+        </div>
+            <div><p> ${BolhaMateria.nome} </p></div>
         </div>`;
 
     }else{

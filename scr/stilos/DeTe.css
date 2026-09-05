@@ -92,13 +92,29 @@ a{
         }
 
         .CH{
-            background-color: #218838;
-            border-radius: 10px;
             flex-direction: column;
             justify-content: center;
-            margin: 4px 0px 2px 4px;
+            /* justify-content: center; */
+            /* align-items: center; */
             padding: 4px;
             display: flex;
+        }
+        .CH > p{
+            margin: 2px 0px 0px 0px;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: #42cf61;
+
+        }
+        .CH > h2{
+            margin-bottom: 0px;
+            border-radius: 4px;
+            background-color: #42cf61;
+            padding: 2px;
+            text-align: center;
+            font-size: 12px;
+            text-align: center;
+
         }
 
         h5{
@@ -117,14 +133,6 @@ a{
         h4{
             font-size: 12px;
             margin: 4px;
-        }
-
-
-        h2 {
-            text-align: center;
-            border: black 2px solid;
-            text-align: center;
-            margin-bottom: 20px;
         }
 
         label {
