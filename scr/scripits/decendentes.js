@@ -11,22 +11,22 @@ function CreateBrick(coluna,BrickMateria,BolhaMateria,flag=''){
     let BMnome = '';
     BrickMateria.map((BM) =>{
         BMcodigo += BM.codigo;
-        BMnome += " - "+BM.nome+ " -";
+        BMnome += BM.nome;
     })
     let brickElement = document.getElementById(`B-${BMcodigo}`);
     if (brickElement == null ){
-        colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> - ${BMnome} - </div>`
+        colunaElement.innerHTML += `<div class="bricks" id="B-${BMcodigo}"> ${BMnome} </div>`
     }
     brickElement = document.getElementById(`B-${BMcodigo}`);
-    if (flag != 'nope'){
-        brickElement.innerHTML += `<div class="bolha${flag}">
+    if (BolhaMateria.type != 'nope'){
+        brickElement.innerHTML += `<div class="bolha${BolhaMateria.type}">
         <div class='CH'>
             <p>${BolhaMateria.cargaHoraria}</p></div>
             <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>
         </div>`;
 
     }else{
-        brickElement.innerHTML += `<div class="bolha${flag}">
+        brickElement.innerHTML += `<div class="bolha${BolhaMateria.type}">
             <div class="divnope">
                 <div class='CH'><p>${BolhaMateria.cargaHoraria}</p></div>
                 <div><p>${BolhaMateria.codigo} - ${BolhaMateria.nome} </p></div>

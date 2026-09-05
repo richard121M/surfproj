@@ -57,7 +57,30 @@ export async function CriarGrade(codMat = []) {
         let coluna = [];
 
         let materiasAntecessoras = listMateAntecessoras(gradeMaterias[id-1],materiaPesquisada);
-        
+        materiasAntecessoras.map((antMate) => {
+            let antemateria = GETinfo(antMate,MATERIAS)
+            let clone = {"nome": antemateria.nome, "codigo": antemateria.codigo}
+            if (!allMaterias.includes(clone)){allMaterias.push(clone)}
+        })
+
+        ///Materias Azuis///
+        ///======================================================================================//
+        materiasAntecessoras.map((mate) => {
+            coluna.push({ "codigo" : mate, "nome" : GETinfo(mate,MATERIAS).nome,"listMaterias" : [] })
+            MATERIAS.splice(MATERIAS.indexOf(GETinfo(mate,MATERIAS)),1) 
+            for (let materia of MATERIAS){
+                if (materia.prerequisito.length > 0){
+                    if (materia.prerequisito.includes(mate)){
+                        //materia-azul
+                        coluna.at(-1).listMaterias.push({ "type" : "","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
+                        
+                    }
+                }
+            }
+            if (coluna.at(-1).listMaterias.length == 0){coluna.splice(coluna.indexOf(coluna.at(-1)),1)}
+        })
+        ///======================================================================================//
+
         if (allMaterias.length > 1){
             for (let materia of MATERIAS){
                 materia.prerequisito.map((preRequi) => {
@@ -75,44 +98,21 @@ export async function CriarGrade(codMat = []) {
                             cont -=1;
                         }
                     }
-                    if (materia.codigo == "MEC7001"){
-                        alert(90)
-                    }
-
+                    
                     if (cont == 0){
                         let nomeb = "";
                         let codigob = "";
                         for (let a of whoMate){
-                            nomeb += " E " + a.nome
+                            nomeb +=  `(${a.nome}) \n`
                             codigob += "&" + a.codigo
-                            //MATERIAS.splice(MATERIAS.indexOf(GETinfo(a.codigo,MATERIAS)),1) 
                         }
-
-                        coluna.push({ "codigo" : codigob, "nome" : nomeb,"listMaterias" : [] })
                         
+                        coluna.push({ "codigo" : codigob, "nome" : nomeb,"listMaterias" : [] })
                         coluna.at(-1).listMaterias.push({ "type" : "nop","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
                     }
                 })
             }
         }
-        ///Materias Azuis///
-        ///======================================================================================//
-        materiasAntecessoras.map((mate) => {
-            coluna.push({ "codigo" : mate, "nome" : GETinfo(mate,MATERIAS).nome,"listMaterias" : [] })
-            MATERIAS.splice(MATERIAS.indexOf(GETinfo(mate,MATERIAS)),1) 
-            for (let materia of MATERIAS){
-                if (materia.prerequisito.length > 0){
-                    if (materia.prerequisito.includes(mate)){
-                        //materia-azul
-                        coluna.at(-1).listMaterias.push({ "type" : "direto","cargaHoraria": materia.cargaHoraria, "nome" : materia.nome, "codigo" : materia.codigo, "prerequisito" : materia.prerequisito })
-                        allMaterias.push({"nome": materia.nome, "codigo": materia.codigo})
-                    }
-                }
-            }
-            if (coluna.at(-1).listMaterias.length == 0){coluna.splice(coluna.indexOf(coluna.at(-1)),1)}
-        })
-        ///======================================================================================//
-
 
         //alert(coluna)
         if (coluna.length == 0){
